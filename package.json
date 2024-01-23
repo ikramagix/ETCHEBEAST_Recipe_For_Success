@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "badge-maker": "^3.3.1"
+    "badge-maker": "^3.3.1",
+    "startbootstrap-grayscale": "^7.0.6"
   }
 }

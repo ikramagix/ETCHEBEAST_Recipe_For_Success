@@ -46,3 +46,45 @@ function navbarShrink() {
       }
     });
   });
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    "use strict";
+
+    class Recipe {
+        constructor(title, steps) {
+            this.title = title;
+            this.steps = steps;
+        }
+
+        cook() {
+            let recipeString = `<h1>${this.title}</h1>`;
+
+            this.steps.forEach(step => {
+
+            });
+
+            recipeString += `<p class="text-center"> Bon appétit les amis !!</p>`;
+            return recipeString;
+        }
+    }
+
+    const redVelvetCake = new Recipe("GÂTEAU RED VELVET AUX FRUITS ROUGES", [
+    [2.5, "tasses", "de farine", "sec"],
+    [1.5, "tasses", "de sucre", "sec"],
+    [1, "cuillère à café", "de bicarbonate de soude", "sec"],
+    [1, "cuillère à café", "de sel", "sec"],
+    [1.5, "tasses", "d'huile végétale", "liquide"],
+    [1, "tasse", "de buttermilk", "liquide"],
+    [2, "unités", "d'œufs", "liquide"],
+    [2, "cuillères à soupe", "de colorant alimentaire rouge", "liquide"],
+    [300, "grammes", "de fruits rouges frais", "sec"],
+    [1, "tasse", "de crème fouettée", "liquide"],
+    ["Préchauffer le four à 175 C. Graisser et fariner deux moules à gâteau ronds. Dans un grand bol, mélanger la farine, le sucre, le bicarbonate de soude et le sel. Ajouter l'huile, le buttermilk, les œufs, le colorant alimentaire, les fruits rouges et la crème fouettée. Battre jusqu'à l'obtention d'une pâte lisse. Verser la pâte dans les moules préparés."],
+    [175, 30]
+]);
+
+    const recipeContainer = document.getElementById('recipeContainer');
+    if (recipeContainer) {
+        recipeContainer.innerHTML = redVelvetCake.cook();
+    }
+});

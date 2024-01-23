@@ -1,7 +1,5 @@
-![Static Badge](https://img.shields.io/badge/:badgeContent)
 
 <blockquote>
-
                                     \  /
                                     (())
                                     ,~L_
@@ -21,5 +19,4 @@
                      Spirit of Heaven, Goddess of Fire & Life
 
                              Every man's dream !
-                             
  </blockquote>

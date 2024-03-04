@@ -1,3 +1,1 @@
-<blockquote>
-                            | Every man's dream ! |
- </blockquote>
+A Red Velvet cake is every (wow)man's dream !

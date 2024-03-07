@@ -1,1 +1,1 @@
-A Red Velvet cake is every (wow)man's dream !
+A Red Velvet cake is every (you)man's dream !
